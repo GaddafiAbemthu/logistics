@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NRTLogistics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="contactUs">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="formResponse"></div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch with us for reliable moving and logistics solutions.</p>
+        <div class="contact-info"> <!-- This new div wraps the contact details and map -->
+            <div class="contact-details">
+                <p><strong>Phone:</strong> +1 234 567 890</p>
+                <p><strong>Email:</strong> info@truckingcompany.com</p>
+                <p><strong>Address:</strong> 123 Logistics Ave, City, Country</p>
+            </div>
+            <div class="location-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.2070581164825!2d144.9556514511153!3d-37.812335742070295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f8d4453%3A0x5045675218ce7e0!2sVictoria%20Harbour%2C%20Docklands%20VIC%203008%2C%20Australia!5e0!3m2!1sen!2sus!4v1631778962505!5m2!1sen!2sus"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <footer>
+        <p>&copy; 2024 ABC Trucking & Logistics. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
